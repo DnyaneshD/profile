@@ -13,7 +13,6 @@ const Header = () => {
       <div
         className="menu"
         onClick={() => {
-          console.log("asdadadad");
           setMenuOpen(!menuOpen);
         }}
       >
@@ -22,6 +21,9 @@ const Header = () => {
         <span></span>
       </div>
       <ul className={menuOpen ? "open" : ""}>
+        <li>
+          <NavLink to={"/about"}>About</NavLink>
+        </li>
         <li>
           <NavLink to={"/blogs"}>Blogs</NavLink>
         </li>

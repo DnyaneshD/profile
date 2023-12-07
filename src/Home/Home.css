@@ -1,0 +1,13 @@
+.home {
+  margin: 10px;
+}
+
+.flex {
+  display: flex;
+  margin-top: 20px;
+}
+
+.flex-col {
+  margin-left: 20px;
+  text-align: start;
+}
