@@ -1,12 +1,12 @@
 .active {
-  background-color: blue;
+  background-color: #40cdf7;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0f0f0f;
+  background-color: #0d2330;
   position: sticky;
   top: 0;
 }
@@ -16,7 +16,7 @@ nav .title {
   margin: 1rem;
   font-weight: bold;
   text-decoration: none;
-  color: white;
+  color: #f2f7f7;
   font-family: Fonarto;
 }
 
