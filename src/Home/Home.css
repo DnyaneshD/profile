@@ -11,3 +11,15 @@
   margin-left: 20px;
   text-align: start;
 }
+
+.pofile-pic {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+@media (max-width: 480px) {
+  .flex {
+    flex-direction: column;
+  }
+}

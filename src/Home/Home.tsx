@@ -4,15 +4,15 @@ import Stack from "react-bootstrap/Stack";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import ProfileImg from "../assests/ProfileImage";
 import { FeatureProjects } from "./FeatureProjects/FeatureProjects";
+import profilePic from "../assests/profilePic.jpeg";
 
 function ProfileImage() {
   return (
     <Container>
       <Row>
-        <Col xs={6} md={4}>
-          <ProfileImg />
+        <Col xs={12} md={4}>
+          <img className="pofile-pic" src={profilePic} alt="" />
         </Col>
       </Row>
     </Container>
@@ -22,9 +22,27 @@ function ProfileImage() {
 function VariationsExample() {
   return (
     <Stack direction="horizontal" gap={2}>
-      <Badge bg="primary">Github</Badge>
-      <Badge bg="secondary">LinkedIn</Badge>
-      <Badge bg="success">Youtube</Badge>
+      <a
+        href="https://github.com/DnyaneshD?tab=repositories"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <Badge bg="secondary">Github</Badge>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/dnyaneshdeshpande1/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <Badge bg="primary">LinkedIn</Badge>{" "}
+      </a>
+      <a
+        href="https://github.com/DnyaneshD?tab=repositories"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <Badge bg="danger">Youtube</Badge>
+      </a>
     </Stack>
   );
 }

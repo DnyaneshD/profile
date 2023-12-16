@@ -18,7 +18,7 @@ const Project = () => {
 export const FeatureProjects = () => {
   return (
     <div className="projects-list">
-      <div className="title">Feature Projects</div>
+      <div className="title">Feature Projects 🤗</div>
       <Project />
       <Project />
       <Project />

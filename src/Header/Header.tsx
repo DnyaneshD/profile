@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <nav>
       <Link to="/" className="title">
-        Website
+        Dnyanesh Deshpande
       </Link>
       <div
         className="menu"

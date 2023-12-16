@@ -19,3 +19,13 @@
 .badges {
   text-align: end;
 }
+
+@media (max-width: 480px) {
+  .flex-col {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .hstack {
+    justify-content: center;
+  }
+}
