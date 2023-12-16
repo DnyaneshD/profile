@@ -5,7 +5,6 @@ import { Routes, Route } from "react-router-dom";
 import { Home } from "./Home/Home";
 import { Contact } from "./Contact/Contact";
 import Blogs from "./Blogs/Blogs";
-import { Footer } from "./Footer/Footer";
 import About from "./About/About";
 
 function App() {
