@@ -5,6 +5,10 @@ import { Link, NavLink } from "react-router-dom";
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  function handleNavClick() {
+    setMenuOpen(!menuOpen);
+  }
+
   return (
     <nav>
       <Link to="/" className="title">
@@ -22,13 +26,19 @@ const Header = () => {
       </div>
       <ul className={menuOpen ? "open" : ""}>
         <li>
-          <NavLink to={"/about"}>About</NavLink>
+          <NavLink onClick={handleNavClick} to={"/about"}>
+            About
+          </NavLink>
         </li>
         <li>
-          <NavLink to={"/blogs"}>Blogs</NavLink>
+          <NavLink onClick={handleNavClick} to={"/blogs"}>
+            Blogs
+          </NavLink>
         </li>
         <li>
-          <NavLink to={"/contact"}>Contact</NavLink>
+          <NavLink onClick={handleNavClick} to={"/contact"}>
+            Contact
+          </NavLink>
         </li>
       </ul>
     </nav>
