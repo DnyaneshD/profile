@@ -53,9 +53,34 @@ export const Home = () => {
       <div className="flex">
         <div>{ProfileImage()}</div>
         <div className="flex-col">
-          <div> Hi This is Dnyanesh Deshpande.</div>
-          <p>This is some text depending on the view</p>
-          <div> Some react </div>
+          <div>👋</div>
+          <div> I am Dnyanesh.</div>
+          <p>
+            I possess extensive experience as a Fullstack Software Engineer with
+            a specialization in React and Node.js.
+          </p>
+          <p>
+            I have gained valuable experience collaborating with a variety of
+            companies, spanning from startups to large corporations, including
+            notable examples such as{" "}
+            <a
+              href="https://www.linkedin.com/company/olx-group/mycompany/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              OLX
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://www.linkedin.com/company/ubs/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              UBS
+            </a>
+            .
+          </p>
+          <div> To discover more about me, please refer to the following. </div>
           <div>{VariationsExample()}</div>
         </div>
       </div>

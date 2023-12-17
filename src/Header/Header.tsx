@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <nav>
       <Link to="/" className="title">
-        Dnyanesh Deshpande
+        Dnyanesh
       </Link>
       <div
         className="menu"
