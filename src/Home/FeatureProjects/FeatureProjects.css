@@ -17,10 +17,10 @@
 }
 
 .badges {
-  text-align: end;
+  text-align: flex-end;
   display: flex;
   gap: 5px;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .deployedLink {
