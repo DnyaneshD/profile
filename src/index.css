@@ -12,7 +12,9 @@ code {
     monospace;
 }
 
-.app-color {
-  background-color: #0d2330;
+.app {
+  background-color: #000000;
   color: white;
+  height: 100vh;
+  font-size: 22px;
 }

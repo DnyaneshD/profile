@@ -18,6 +18,17 @@
 
 .badges {
   text-align: end;
+  display: flex;
+  gap: 5px;
+  justify-content: end;
+}
+
+.deployedLink {
+  color: #fcdc0a;
+}
+
+.githubLink {
+  color: #0ac0fc;
 }
 
 @media (max-width: 480px) {

@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <div className="app-color">
+      <div className="app">
         <App />
       </div>
     </BrowserRouter>

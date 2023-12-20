@@ -18,6 +18,18 @@
   border-radius: 50%;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+.olx {
+  color: green;
+}
+
+.ubs {
+  color: #d22b23;
+}
+
 @media (max-width: 480px) {
   .flex {
     flex-direction: column;

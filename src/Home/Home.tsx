@@ -67,6 +67,7 @@ export const Home = () => {
               href="https://www.linkedin.com/company/olx-group/mycompany/"
               target="_blank"
               rel="noreferrer"
+              className="olx"
             >
               OLX
             </a>{" "}
@@ -75,6 +76,7 @@ export const Home = () => {
               href="https://www.linkedin.com/company/ubs/"
               target="_blank"
               rel="noreferrer"
+              className="ubs"
             >
               UBS
             </a>
